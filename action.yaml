@@ -27,6 +27,7 @@ inputs:
     required: false
 
   registry-url:
+    default: https://npm.pkg.github.com/
     description: See "registry-url" input documentation at https://github.com/actions/setup-node#readme
     required: false
 
