@@ -39,7 +39,7 @@ A [GitHub Action](https://docs.github.com/en/actions) that contains steps for bu
      build:
        runs-on: ubuntu-latest
        steps:
-         - uses: esxl/action-package-build@v0.1.0
+         - uses: esxl/action-package-build@v0.3.0
    ```
 
 ## Configure
