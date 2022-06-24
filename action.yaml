@@ -3,7 +3,7 @@ description: Continuous integration workflow for building EcmaScript based proje
 
 inputs:
   always-auth:
-    default: 'true'
+    default: 'false'
     description: See "always-auth" input documentation at https://github.com/actions/setup-node#readme
     required: false
 
