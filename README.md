@@ -17,7 +17,7 @@ A [GitHub Action](https://docs.github.com/en/actions) that contains steps for bu
 1. Create a new file, for example _build.yaml_, in the _.github/workflows/_ directory:
 
    ```bash
-   touch ~/.github/workflows/build.yaml
+   touch .github/workflows/build.yaml
    ```
 
 1. Add the following to the file you just created:
