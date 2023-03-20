@@ -1,0 +1,15 @@
+# This workflow is not used and/or run directly. It exists to track the GitHub
+# Actions that this repository depends on.
+#
+# We can use Dependabot to maintain these dependencies and ensure that we use
+# up-to-date dependencies in this repository's custom action.
+name: Dependency monitor
+on:
+  workflow_dispatch
+jobs:
+  dependencies:
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3.3.0
+      
