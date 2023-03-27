@@ -81,7 +81,7 @@ runs:
       shell: bash
 
     - name: Lint
-      run: npm run lint --if-present
+      run: npm run lint:check --if-present
       shell: bash
 
     - name: Run unit tests
