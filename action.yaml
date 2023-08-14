@@ -57,7 +57,7 @@ runs:
 
     - name: Use Node.js ${{ inputs.node-version }}
       # See https://github.com/actions/setup-node
-      uses: actions/setup-node@v3.6.0
+      uses: actions/setup-node@v3.8.0
       with:
         always-auth: ${{ inputs.always-auth }}
         architecture: ${{ inputs.architecture }}
